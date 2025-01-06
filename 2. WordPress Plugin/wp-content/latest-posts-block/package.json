@@ -1,0 +1,22 @@
+{
+  "name": "gutenberg-block",
+  "version": "1.0.0",
+  "description": "Custom Gutenberg Block using React",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/block-editor": "^14.10.1",
+    "@wordpress/blocks": "^14.4.1",
+    "@wordpress/components": "^29.1.1",
+    "@wordpress/element": "^6.15.1",
+    "gutenberg-block": "file:"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.8.1"
+  }
+}
